@@ -95,6 +95,9 @@ public interface Navigator extends PluginListener<NavGesture> {
     public default KeyButtonDrawable getBackDrawable(Context lightContext, Context darkContext) { return null; }
     public default KeyButtonDrawable getHomeDrawable(Context lightContext, Context darkContext) { return null; }
 
+    /* Test 101 */
+    public void setFullGestureMode(boolean full, boolean dt2s) {}
+
     /*
      * DUI additional methods to support additional winning ;D
      */
